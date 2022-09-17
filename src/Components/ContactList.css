@@ -1,0 +1,42 @@
+.contactList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 25rem;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.item button{
+    outline: none;
+    border: 1px solid #fff;
+    background-color: #dc2626;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.item img{
+    width:20px;
+    height: 20px;
+    color: #7c3aed;
+}
+.detail{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+.detail p{
+    margin-left: 8px;
+}
